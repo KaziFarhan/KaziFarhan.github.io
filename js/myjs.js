@@ -1,4 +1,11 @@
 // Index page load
+let theme = localStorage.getItem('theme')
+console.log(theme)
+if (theme){
+    document.getElementById('light-css').removeAttribute('disabled')
+    document.getElementById('dark-css').setAttribute('disabled', true);
+}
+
 var xmlHttp = new XMLHttpRequest();
 xmlHttp.onreadystatechange = function() { 
     if (xmlHttp.readyState == 4 && xmlHttp.status == 200){
@@ -25,10 +32,12 @@ navXmlHttp.onreadystatechange = function() {
         document.getElementById("changeTheme").addEventListener('click', 
             function changeTheme(){
                 if (document.getElementById('dark-css').hasAttribute('disabled')){
+                    localStorage.removeItem('theme')
                     document.getElementById('dark-css').removeAttribute('disabled')
-                    document.getElementById('light-css').setAttribute('disabled', true);             
+                    document.getElementById('light-css').setAttribute('disabled', true);
                 }
                 else{
+                    localStorage.setItem('theme', 'light')
                     document.getElementById('light-css').removeAttribute('disabled')
                     document.getElementById('dark-css').setAttribute('disabled', true);
 

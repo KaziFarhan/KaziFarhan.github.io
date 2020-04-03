@@ -22,4 +22,3 @@
 > 100 push ups
 >
 > 500 rep exercise
-

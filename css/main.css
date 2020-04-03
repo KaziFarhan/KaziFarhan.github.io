@@ -6,9 +6,11 @@
     -ms-user-select: none;
     user-select: none;
 }
+#navigation > li:hover, #navigation > div:hover, .pagelink:hover{
+    cursor: pointer;
+}
 #navigation > li:hover, #navigation > div:hover{
     color: #000;
-    cursor: pointer;
 }
 #navigation > li{
     margin-top: 5px;
@@ -38,4 +40,8 @@
 }
 hr{
     color: var(--light-header-color);
+}
+
+img{
+    max-width: 350px !important;
 }

@@ -7,6 +7,9 @@ xmlHttp.onreadystatechange = function() {
         document.getElementById('content').querySelectorAll('code').forEach(element => {
             hljs.highlightBlock(element);
         });
+        document.getElementById('content').querySelectorAll('.pagelink').forEach(element => {
+            element.addEventListener('click', changePage)
+        });
     }
 }
 xmlHttp.open("GET", 'index.md', true); // true for asynchronous 
@@ -23,7 +26,7 @@ navXmlHttp.onreadystatechange = function() {
             function changeTheme(){
                 if (document.getElementById('dark-css').hasAttribute('disabled')){
                     document.getElementById('dark-css').removeAttribute('disabled')
-                    document.getElementById('light-css').setAttribute('disabled', true);                    
+                    document.getElementById('light-css').setAttribute('disabled', true);             
                 }
                 else{
                     document.getElementById('light-css').removeAttribute('disabled')
@@ -34,7 +37,7 @@ navXmlHttp.onreadystatechange = function() {
         )
     }
 }
-navXmlHttp.open("GET", 'nav.md', true); // true for asynchronous 
+navXmlHttp.open("GET", 'nav.md', true);
 navXmlHttp.send(null);
 
 // Nav bar working 
@@ -53,8 +56,10 @@ function toggleNavBar() {
 }
 
 // Change Page
-    navigaTion.addEventListener('click', function(li) {
-        xmlHttp.open("GET", li.target.getAttribute('data-file'), true); // true for asynchronous 
+    navigaTion.addEventListener('click', changePage)
+
+    function changePage(li) {
+        xmlHttp.open("GET", li.target.getAttribute('data-file'), true);
         xmlHttp.send(null);
         navigaTion.style.display = 'none';
-})
+    }

@@ -19,6 +19,6 @@
 
 ## How to get ?
 
-> 100 push ups
+> **100** push ups
 >
-> 500 rep exercise
+> **500** rep exercise

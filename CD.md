@@ -46,7 +46,7 @@
 * **Symbol table**
 	It is a data structure that is used by the compilers to hold information about the source program construction, It is collected during analysis phase and used during synthesis phase. Entries in the symbol table contains information the identifier such as it character string(lexeme), it type, position in storage, etc. Mostly needs to be able to perform multiple declare of the same identifier within a program. The entry is made when an identifier is declared
 
-#### Example ![](assets/New_CD/493889.png)
+#### Example
 
 ### Grouping of Phases into Passes 
 

@@ -81,12 +81,12 @@ There are 2 types of grouping
 
 	
 
-	**Problems with single pass compiler:**
+**Problems with single pass compiler:**
 
-	1. We can not optimise very well due to the context of expressions are limited.
-	2. As we can’t backup and process, it again so grammar should be limited or simplified.
-	3. Single pass compiler is less efficient in comparison with multi pass compiler.
-	4. Command interpreters such as *bash/sh/tcsh* can be considered as Single pass compiler, but they also execute entry as soon as they are processed.
+1. We can not optimise very well due to the context of expressions are limited.
+2. As we can’t backup and process, it again so grammar should be limited or simplified.
+3. Single pass compiler is less efficient in comparison with multi pass compiler.
+4. Command interpreters such as *bash/sh/tcsh* can be considered as Single pass compiler, but they also execute entry as soon as they are processed.
 
 ### Compiler Construction tools
 

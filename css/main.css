@@ -34,6 +34,7 @@
 }
 #toggleNav{
     margin-left: 10px;
+    position: fixed;
 }
 #changeTheme{
 

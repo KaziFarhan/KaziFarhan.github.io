@@ -1,3 +1,7 @@
+// Defining
+let nav_link = '/staticPages/nav.md'
+let index_link = '/staticPages/index.md'
+
 // Nav bar working 
 let content = document.getElementById('content');
 var navigaTion = document.getElementById('navigation');
@@ -37,7 +41,7 @@ navXmlHttp.onreadystatechange = function() {
         )
     }
 }
-navXmlHttp.open("GET", 'nav.md', true);
+navXmlHttp.open("GET", nav_link, true);
 navXmlHttp.send(null);
 
 
@@ -64,7 +68,7 @@ xmlHttp.onreadystatechange = function() {
         document.getElementById('content').querySelectorAll('h3').forEach(element => {
             tableOfContent += `<li class="link"><a href="#${element.id}">${element.innerText}</a></li>`
         });
-        if (!tableOfContent){
+        if (!tableOfContent){   
             document.getElementById('tableofcontentnav').style.display='none';
         }
         else{
@@ -73,7 +77,7 @@ xmlHttp.onreadystatechange = function() {
         document.getElementById('tableofcontent').innerHTML = tableOfContent
     }
 }
-xmlHttp.open("GET", 'index.md', true); // true for asynchronous 
+xmlHttp.open("GET", index_link, true); // true for asynchronous 
 xmlHttp.send(null);
 
 // Change Page

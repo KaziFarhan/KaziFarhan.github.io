@@ -1,10 +1,6 @@
-[TOC]
-
-
-
 ## Unit 1 Introduction
 
-### Compiler <img src="https://www.dropbox.com/s/p8mg0bbl82kdkp7/photo_2020-04-19_19-47-27-1587306552141.jpg?dl=1" style="max-width:100%">
+### Compiler
 
 ​	A compiler is a program that can read program in one language(source) & translate it into an equivalent program in another language(target)
 
@@ -14,18 +10,20 @@
 
 ### token
 
-​	Tokens are lexemes mapped into a token-name and attribute values
+​	Tokens are lexeme mapped into a token-name and attribute values
 
 **example** 
 
 ​		An example includes:
 ​		x = a + b * 2
-​				Which yields the lexemes: {x, =, a, +, b, *, 2}
+​				Which yields the lexeme: {x, =, a, +, b, *, 2}
 ​				With corresponding tokens: {<id, 0>, <=>, <id, 1>, <+>, <id, 2>, <*>, <id, 3>}
 
-### Language Processing System <img src="https://4.bp.blogspot.com/-I3wjDWoICmQ/VshOBzea_5I/AAAAAAAAAn4/bBR8IyC-R5k/s1600/language%2Bprocessing%2Bsystem.png" style="zoom: 33%;" />
+### Language Processing System 
 
-### Phases of Compiler ![](assets/New CD/photo_2020-04-19_19-47-27-1587306552141.jpg)
+![](assets/New_CD/photo_2020-04-19_19-47-27-1587306552141.jpg)
+
+### Phases of Compiler
 
 1. **Lexical Analysis**
 
@@ -48,7 +46,7 @@
 * **Symbol table**
 	It is a data structure that is used by the compilers to hold information about the source program construction, It is collected during analysis phase and used during synthesis phase. Entries in the symbol table contains information the identifier such as it character string(lexeme), it type, position in storage, etc. Mostly needs to be able to perform multiple declare of the same identifier within a program. The entry is made when an identifier is declared
 
-#### Example ![]()
+#### Example
 
 ### Grouping of Phases into Passes 
 
@@ -110,7 +108,7 @@ There are 2 types of grouping
 
 - Because of time required to process large amount of characters in this process special buffer technique are used, an important scheme involves 2 buffers that are alternately reloaded, Each buffer is of size *N*, *N* is the size of disk block.
 
-- We can read *N* character in one system read  command, rather using one system call  per character, if fewer than *N* characters remain in the input file then a special character represented by **eof** marks the end of the source file and is different from any character of the source program
+- We can read *N* character in one system read  command, rather using one system call  per character, if fewer than *N* characters remain in the input file then a special character represented by **eof**(end of file) marks the end of the source file and is different from any character of the source program
 
 - Two pointers to the input are maintained 
 

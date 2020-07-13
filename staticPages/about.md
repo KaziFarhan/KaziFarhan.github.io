@@ -9,5 +9,3 @@
 > I have strong dedication
 
 > And I love curd 🍮️
-
-<sub> By the way the photo is of IronMan not me !, I know you mmight have been confused </sub>

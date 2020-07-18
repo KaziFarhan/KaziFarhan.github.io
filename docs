@@ -1,0 +1,13 @@
+# for on page links
+
+<div class="pagelink" data-file="file.md">
+    Title
+</div>
+
+# for nav links (in nav.md)
+
+<li class="link" data-file='/staticPages/index.md'>Home</li>
+
+## For entry in table of content
+
+use h3

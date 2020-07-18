@@ -2,7 +2,7 @@
 
 4:15 📖 - Vocab 10 words (5:15-5:30) 
 
-4:30  🕋 - Read Quran (incremental) (30 min)
+4:30 🕋 - Read Quran (incremental) (30 min)
 
 5:00 🏋 - Exercise (20 min) (byseps, trysesp, chest, rep) > Food
 

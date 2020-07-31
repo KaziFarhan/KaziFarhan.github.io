@@ -1,21 +1,23 @@
-4:00 🥇- up early 
-
-4:15 📖 - Vocab 10 words (5:15-5:30) 
+4:00 🥇 - Wake up + Salat
 
 4:30 🕋 - Read Quran (incremental) (30 min)
 
-5:00 🏋 - Exercise (20 min) (byseps, trysesp, chest, rep) > Food
+5:00 📖 - Vocab 30 words  
 
-6:00 📙 - Reading (3 hrs)
+5:30 🏋 - Exercise (20 min) (byseps, trysesp, chest, rep) > Food
 
-9:30 📝 - Write (3 hrs) 
+6:00 📙 - Reading/Writing (3 hrs)
 
-3:00 🗣 - Speak/Listning (3 hrs) 
+9:30 📝 - Test (3 hrs)
+
+1:00 🍖 - Food + Sleep
+
+3:00 🗣 - Listning/Speak (3 hrs) 
 
 7:00 🏋 - Exercise (20 min) (byseps, trysesp, chest, rep) > Food 
 
-8:15 🕋 - Read Quran (Surah s & mulk) 
+8:00 📖 - Vocab 30 words 
 
-8:30 📖 - Vocab 10 words (15 min) 
+8:30 🕋 - Read Quran (Surah s & mulk) 
 
-9:00 💤 - Sleep at
+9:00 💤 - Sleep
